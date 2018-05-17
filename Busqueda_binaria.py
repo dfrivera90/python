@@ -19,7 +19,7 @@ def busqueda_binaria(numeros, numero, bajo, alto):
 if __name__ == '__main__':
     numeros = [1, 3, 4, 5, 6, 9, 10, 11, 25, 27, 28, 34, 36, 49, 51]
 
-    numero = int(input('Ingresa un número: '))
+    numero = int(input('Ingresa un número, puto: '))
 
     resultado = busqueda_binaria (numeros, numero, 0, len(numeros) - 1)
 
