@@ -24,6 +24,6 @@ if __name__ == '__main__':
     resultado = busqueda_binaria (numeros, numero, 0, len(numeros) - 1)
 
     if resultado is True:
-        print('El número si está')
+        print('El número si está en la lista')
     else:
-        print('El número NO está')
+        print('El número NO está en la lista')
