@@ -93,7 +93,7 @@ def display_board(hidden_word, tries):
     print(hidden_word)
     print('--- * --- * --- * --- * --- * ---')
 
-
+#Holis perris
 def run():
     word = randon_word()
     hidden_word = ['-'] * len(word)
