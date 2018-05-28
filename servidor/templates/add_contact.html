@@ -1,0 +1,25 @@
+{% extends 'index.html' %}
+
+{% block body %}
+    <form action="/add" method="post">
+        <fieldset>
+            <legend>Añadir contacto: </legend>
+            
+            <label for="nombre"> Nombre </label>
+            <input type="text" name="nombre" id="nombre"/>
+            
+            <label for="tel"> Teléfono </label>
+            <input type="text" name="tel" id="tel"/>
+            
+            <label for="correo"> Correo </label>
+            <input type="email" name="correo" id="email"/>
+            
+            <button type="submit" name="boton"/> Agregar </button>
+        </fieldset>
+    </form>
+    
+    <p>
+        <a href="/"> Regresar </a>
+    </p>
+    
+{% endblock %}
